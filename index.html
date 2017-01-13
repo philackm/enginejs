@@ -1,0 +1,83 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>ENGINE</title>
+  <meta name="description" content="Asteroids">
+  <meta name="author" content="Author">
+
+  <link href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="style.css">
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+	<h2 id="title">2D ENGINE (CANVAS)</h1>
+	<canvas id="canvas">	
+	</canvas>
+</body>
+	
+	<!-- ENGINE -->
+	<script src="javascript/engine/helpers/namespace.js"></script>
+		
+	<!-- Math -->
+	<script src="javascript/engine/maths/maths.js"></script>
+	<script src="javascript/engine/maths/vector.js"></script>
+	<script src="javascript/engine/maths/matrix.js"></script>
+
+	<!-- Core -->
+	<script src="javascript/engine/core/time.js"></script>
+	<script src="javascript/engine/core/game.js"></script>
+	
+	<!-- Graphics -->
+	<script src="javascript/engine/graphics/color.js"></script>
+	<script src="javascript/engine/graphics/screen.js"></script>
+	<script src="javascript/engine/graphics/canvas.js"></script>
+	
+	<!-- Screens -->
+	<script src="javascript/engine/screens/screen-controller.js"></script>
+	<script src="javascript/engine/screens/screen.js"></script>
+	<script src="javascript/engine/screens/layer.js"></script>
+	
+	<!-- Input -->
+	<script src="javascript/engine/input/input.js"></script>
+	
+	<!-- Primitives -->
+	<script src="javascript/engine/models/model.js"></script>
+	<script src="javascript/engine/models/primitive.js"></script>
+	<script src="javascript/engine/models/poly.js"></script>
+	
+	<!-- Camera -->
+	<script src="javascript/engine/objects/camera.js"></script>
+	
+	<!-- Game Objects -->
+	<script src="javascript/engine/objects/gameobject.js"></script>
+	<script src="javascript/engine/objects/staticobject.js"></script>
+	<script src="javascript/engine/objects/dynamicobject.js"></script>
+		
+	<!-- Animation -->
+	<script src="javascript/engine/animation/animationcurve.js"></script>
+	<script src="javascript/engine/animation/animationscheduler.js"></script>
+	<script src="javascript/engine/animation/animation.js"></script>
+		
+	<!-- UI -->
+	<script src="javascript/engine/objects/uiobject.js"></script>
+	<script src="javascript/engine/ui/curve-editor.js"></script>
+	
+	<!-- Game Logic -->
+	<script src="javascript/example-game/objects/bullet.js"></script>
+	<script src="javascript/example-game/objects/ship.js"></script>
+	
+	<script src="javascript/example-game/screens/animation-screen.js"></script>
+	<script src="javascript/example-game/screens/gameplay-screen.js"></script>
+	<script src="javascript/example-game/screens/title-screen.js"></script>
+		
+	<script src="javascript/example-game/game.js"></script>
+	
+</html>
